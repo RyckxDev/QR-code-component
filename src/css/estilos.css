@@ -1,0 +1,43 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*CARD*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /*DAQUI PRA BAIXO SOU EU*/
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    /*DAQUI PRA BAIXO SOU EU*/
+    color: hsl(218, 44%, 22%);
+    text-align: center;    
+  }
+/*CARD-FIM*/
+
+body{
+    font-family: 'Outfit';
+    background-color: hsl(212, 45%, 89%);
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+p{
+    font-size: 15px;
+}
+
+#QRCODE{
+    border-radius: 15px;
+    
+}
